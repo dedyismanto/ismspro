@@ -19,8 +19,7 @@ class Homepage extends CI_Controller {
 	 */
 	public function index()
 	{
-		
-		$this->template->load("template/main","Homepage/index");
+		$this->template->load("Template/main","Homepage/index");
 	}
 }
 
